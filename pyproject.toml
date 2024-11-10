@@ -1,0 +1,23 @@
+[tool.poetry]
+name = "sber-python-project"
+version = "0.1.0"
+description = ""
+authors = ["Татьяна <90142707+Kuzy-git@users.noreply.github.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "3.10.4"
+aiogram = "^3.14.0"
+boto3 = "^1.35.55"
+dramatiq = "^1.17.1"
+protobuf = ">=3.19.0,<4.0.0"
+tensorflow = "2.10.0"
+tensorflow-io-gcs-filesystem = "0.27.0"
+numpy = ">=1.21.0,<2.0.0"
+redis = "^5.2.0"
+pillow = "^11.0.0"
+googletrans = "4.0.0-rc1"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
